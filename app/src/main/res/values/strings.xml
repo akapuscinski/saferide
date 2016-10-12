@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Safe Ride</string>
+    <string name="google_maps_api_key">AIzaSyAaxZue_weFTmFL_gsy3nk1se3BBtVbvFM</string>
+    <string name="map_warning">Warning</string>
+    <string name="map_no_gps_content">We noticed that gps is not enabled on this device please
+        enable it, this app won\'t work properly otherwise</string>
+    <string name="ok">OK</string>
+    <string name="service_ticker">Damage detection started</string>
+    <string name="service_title">Damage detection active</string>
+    <string name="service_content">Click to open app</string>
+    <string name="map_incorrect_orientation_content">Device has moved try to adjust it\'s rotation angle against Y axis otherwise damage detection won\'t work</string>
+    <string name="map_dismiss">dismiss</string>
+    <string name="service_incorrect_ticker">Device orientation changed!</string>
+    <string name="service_incorrect_title">Damage detection stopped</string>
+    <string name="service_incorrect_message">Device has moved try to adjust rotation alogn vertical axis</string>
+    <string name="service_correct_ticker">Device orientation correct</string>
+    <string name="preferences_category_thresholds">Damage detection thresholds</string>
+    <string name="preferences_small_threshold">Small damage threshold</string>
+    <string name="preferences_medium_threshold">Medium damage threshold</string>
+    <string name="map_menu_settings">Settings</string>
+    <string name="global_settings">Settings</string>
+    <string name="preferences_big_threshold">Big damage threshold</string>
+    <string name="map_sensors_not_available">Sensors not available damage detection not started</string>
+    <string name="preferences_category_developer">Developer</string>
+    <string name="preferences_clear_db">Clear local database</string>
+    <string name="preferences_clearing_db">Clearing database...</string>
+    <string name="preferences_db_cleared">Database cleared</string>
+    <string name="preferences_cleared">Database cleared</string>
+</resources>

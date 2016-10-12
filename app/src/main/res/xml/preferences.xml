@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/preferences_category_thresholds">
+        <com.kapuscinski.saferide.presentation.custom.FloatEditTextPreference
+            android:key="small_damage"
+            android:title="@string/preferences_small_threshold"/>
+        <com.kapuscinski.saferide.presentation.custom.FloatEditTextPreference
+            android:key="medium_damage"
+            android:title="@string/preferences_medium_threshold"/>
+        <com.kapuscinski.saferide.presentation.custom.FloatEditTextPreference
+            android:key="big_damage"
+            android:title="@string/preferences_big_threshold"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/preferences_category_developer">
+        <Preference
+            android:key="clear_db"
+            android:title="@string/preferences_clear_db"/>
+    </PreferenceCategory>
+</PreferenceScreen>
