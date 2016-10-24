@@ -33,7 +33,7 @@ android {
     defaultConfig {
         applicationId "com.kapuscinski.saferide"
         minSdkVersion 16
-        targetSdkVersion 24
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
     }
