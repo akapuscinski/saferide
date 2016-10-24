@@ -12,7 +12,7 @@
         <item name="colorAccent">@color/colorAccent_Green</item>
     </style>
 
-    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="SplashTheme" parent="AppThemeGreen">
         <item name="android:windowBackground">@drawable/splash_background</item>
     </style>
 
