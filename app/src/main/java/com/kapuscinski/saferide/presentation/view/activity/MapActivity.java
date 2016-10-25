@@ -280,12 +280,12 @@ public class MapActivity extends BaseComponentActivity<MapContract.View, MapPres
 
     @Override
     public void onDamageDetectionStarted() {
-        toggleDetectionBtn.setImageResource(R.drawable.ic_pause_dark);
+        toggleDetectionBtn.setImageResource(R.drawable.ic_pause);
     }
 
     @Override
     public void onDamageDetectionPaused() {
-        toggleDetectionBtn.setImageResource(R.drawable.ic_play_dark);
+        toggleDetectionBtn.setImageResource(R.drawable.ic_play);
     }
 
     @Override
